@@ -65,4 +65,8 @@ console.log(ageShohan, ageAnika);
 console.log(ageShohan / 2, ageShohan * 2, 2 ** 3);
 // 2**3 means exponential operator. means 2 to the power 3 = 2*2*2
 
+// Concatanation
+const fName = "Shohan";
+const lName = "Anika";
 
+console.log(fName + ' & ' + lName);

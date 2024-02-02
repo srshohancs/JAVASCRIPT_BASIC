@@ -70,3 +70,11 @@ const fName = "Shohan";
 const lName = "Anika";
 
 console.log(fName + ' & ' + lName);
+
+// Assognment Operator
+let x = 10 + 5; //15
+x += 5; // x=x+5 = 20
+x *= 5; //x=x*5 = 100
+x++; //x = x+1;
+x--; //x = x-1
+console.log(x);

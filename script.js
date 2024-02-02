@@ -1,10 +1,11 @@
-// let js = "Amazing";
+/*
+let js = "Amazing";
 
-// if (js === "Amazing") {
-//     alert("Js is so Amazing language to getting a job");
-// }
+if (js === "Amazing") {
+    alert("Js is so Amazing language to getting a job");
+}
 
-// console.log(20 + 30 - 10);
+console.log(20 + 30 - 10);
 
 // Value and Variables
 console.log('Shohan');
@@ -17,3 +18,24 @@ console.log(lname);
 
 let myFirstJob = "SoftWare Engineer";
 console.log(myFirstJob);
+
+console.log(true);
+*/
+
+// typeof to find the datatype in js
+let javaScript = true;
+
+console.log(javaScript);
+
+javaScript = "yes!";
+console.log(javaScript);
+
+console.log(typeof javaScript);
+// console.log(typeof 1285);
+// console.log(typeof "shohan");
+// console.log(typeof true);
+// console.log(typeof 15.5);
+
+let year;
+console.log(year);
+console.log(typeof year);

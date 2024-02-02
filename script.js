@@ -20,7 +20,7 @@ let myFirstJob = "SoftWare Engineer";
 console.log(myFirstJob);
 
 console.log(true);
-*/
+
 
 // typeof to find the datatype in js
 let javaScript = true;
@@ -41,3 +41,18 @@ console.log(year);
 console.log(typeof year);
 
 console.log(typeof null);
+
+// let, const and var
+let age = 23;
+age = 24;
+console.log(age);
+
+const birthYear = 2001;
+// birthYear = 1999; its contains error reason why its not reassigned variable
+console.log(birthYear);
+
+var job = "Software";
+job = "eee";
+console.log(job);
+*/
+

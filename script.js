@@ -56,3 +56,13 @@ job = "eee";
 console.log(job);
 */
 
+// Basic Operator
+const now = 2024;
+const ageShohan = now - 1999;
+const ageAnika = now - 2002;
+console.log(ageShohan, ageAnika);
+
+console.log(ageShohan / 2, ageShohan * 2, 2 ** 3);
+// 2**3 means exponential operator. means 2 to the power 3 = 2*2*2
+
+

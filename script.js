@@ -78,3 +78,11 @@ x *= 5; //x=x*5 = 100
 x++; //x = x+1;
 x--; //x = x-1
 console.log(x);
+
+// Comparison Operator >,<, >=, <= 
+console.log(ageShohan > ageAnika);
+console.log(ageAnika >= 18);
+console.log(ageShohan <= 18);
+
+const isFullAge = ageAnika >= 18;
+console.log(now - 1965 < now - 2025);

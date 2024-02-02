@@ -39,3 +39,5 @@ console.log(typeof javaScript);
 let year;
 console.log(year);
 console.log(typeof year);
+
+console.log(typeof null);

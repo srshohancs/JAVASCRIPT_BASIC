@@ -79,7 +79,7 @@ x++; //x = x+1;
 x--; //x = x-1
 console.log(x);
 
-// Comparison Operator >,<, >=, <= 
+// Comparison Operator >,<, >=, <=
 console.log(ageShohan > ageAnika);
 console.log(ageAnika >= 18);
 console.log(ageShohan <= 18);
@@ -87,7 +87,7 @@ console.log(ageShohan <= 18);
 const isFullAge = ageAnika >= 18;
 console.log(now - 1965 < now - 2025);
 
-*/
+
 
 // operator Presedence
 const now = 2062;
@@ -108,3 +108,31 @@ console.log(x, y);
 const averageAge = (ageShohan + ageAnika) / 2;
 console.log(averageAge);
 console.log(ageShohan, ageAnika);
+
+
+
+// Strings and Template Literals
+const fName = "Shohan";
+const job = "Software Enginner";
+const birthYear = 2001;
+const currentYear = 2024;
+
+const shohan = "I'm " + fName + ', a ' + (currentYear - birthYear) + ' years old ' + job + '!';
+console.log(shohan);
+
+// Regular Usage Template Literal
+const shohanNew = `I'm ${fName} a ${currentYear - birthYear} year's old ${job}!`;
+console.log(shohanNew);
+console.log(`Just a regular string...`);
+
+// Multiline string
+console.log('String \n\ multiple \n\ Line');
+
+// Backtext use korle same to same output dibe
+console.log(`String
+Multiple
+Line
+use
+backtext`);*/
+
+// Taking Decisions: if / else Statements

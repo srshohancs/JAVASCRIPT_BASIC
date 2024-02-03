@@ -54,7 +54,7 @@ console.log(birthYear);
 var job = "Software";
 job = "eee";
 console.log(job);
-*/
+
 
 // Basic Operator
 const now = 2024;
@@ -86,3 +86,25 @@ console.log(ageShohan <= 18);
 
 const isFullAge = ageAnika >= 18;
 console.log(now - 1965 < now - 2025);
+
+*/
+
+// operator Presedence
+const now = 2062;
+const ageAnika = now - 2002;
+const ageShohan = now - 2001;
+const husbandWife = ageShohan > ageAnika;
+console.log("Shohan is bigger than Anika, Is It true? -> " + husbandWife);
+console.log("Shohan can Marry anika, Is It Possible? -> " + husbandWife);
+console.log("Shohan can Marry anika, Is It Possible? -> " + husbandWife);
+
+//left ro right operation
+console.log(25 - 10 - 5);
+
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
+
+const averageAge = (ageShohan + ageAnika) / 2;
+console.log(averageAge);
+console.log(ageShohan, ageAnika);

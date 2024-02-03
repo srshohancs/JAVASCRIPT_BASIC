@@ -136,3 +136,25 @@ use
 backtext`);*/
 
 // Taking Decisions: if / else Statements
+const age = 18;
+
+if (age >= 18) {
+    console.log('Shohan can start driving license');
+}
+else {
+    const yearLeft = 18 - age;
+    console.log(`Shohan is too young, Wait another ${yearLeft} years`);
+}
+
+const birthYear = 2001;
+let century;
+
+if (birthYear <= 2000) {
+    century = 20;
+}
+else {
+    century = 21;
+}
+console.log(century);
+
+// Type Conversion and Coercion

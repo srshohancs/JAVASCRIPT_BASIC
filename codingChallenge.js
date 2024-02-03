@@ -18,10 +18,10 @@ m tall.
 */
 
 let massMark, heightMark, massJohn, heightJohn;
-massMark = 78;
-heightMark = 1.69;
-massJohn = 92;
-heightJohn = 1.95;
+massMark = 95;
+heightMark = 1.88;
+massJohn = 85;
+heightJohn = 1.76;
 
 let BMIMark = massMark / (heightMark * heightMark);
 console.log(BMIMark);

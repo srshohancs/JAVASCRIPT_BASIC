@@ -133,7 +133,7 @@ console.log(`String
 Multiple
 Line
 use
-backtext`);*/
+backtext`);
 
 // Taking Decisions: if / else Statements
 const age = 18;
@@ -176,3 +176,57 @@ console.log('23' + '10' + 3); // ans is 23103
 let n = '1' + 1;
 n = n - 1;
 console.log(n);
+
+
+// Truthy and Falsy Values
+
+//  javascript has 5 falsy values: 0, ‘’, undefined, null, NaN.
+console.log(Boolean(0));
+console.log(Boolean(''));
+console.log(Boolean({}));
+console.log(Boolean('Shohan'));
+console.log(Boolean(undefined));
+
+const money = 0;
+if (money) {
+    console.log(`Don't Spend it at all;`);
+}
+else {
+    console.log('You Shound get a job!');
+}
+
+let height = 20;
+if (height) {
+    console.log('YAY! Height is Defined');
+}
+else {
+    console.log('Height is Undefined');
+}
+
+
+*/
+// Equality Operators: == vs. ===
+
+const age = '18';
+if (age === 18) console.log('You just become an adult (Strict))');
+if (age == 18) console.log('You just become an adult (loose)');
+
+alert('I Love You');
+const favourite = Number(prompt(`What's Your Favourite Number?`));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 23) {
+    console.log('23 is an amazing number!');
+}
+else if (favourite === 7) {
+    console.log('7 is also a cool number');
+}
+else if (favourite === 9) {
+    console.log('9 is also a cool number');
+}
+else {
+    console.log('Number is not 23 or 7');
+}
+
+if (favourite !== 23) console.log('Why not 23?');

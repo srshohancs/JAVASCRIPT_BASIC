@@ -157,4 +157,22 @@ else {
 }
 console.log(century);
 
-// Type Conversion and Coercion
+// Type Conversion
+const inputYear = '2001';
+console.log(Number(inputYear));
+console.log(Number(inputYear) + 18);
+console.log(Number('Shohan'));
+console.log(typeof NaN);
+
+console.log(String(23));
+
+// Type Coercion
+console.log('I am ' + 23 + ' Years Old.');
+console.log('23' - '10' - 3); // ans is 10
+console.log('23' * '2'); // ans is 46
+console.log('23' / '2'); // ans is 11.5
+console.log('23' + '10' + 3); // ans is 23103
+
+let n = '1' + 1;
+n = n - 1;
+console.log(n);

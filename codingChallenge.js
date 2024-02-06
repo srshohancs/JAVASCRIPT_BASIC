@@ -51,17 +51,3 @@ else {
     console.log(`John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!`);
 }
 
-
-// Personal
-/* 
-alert('I Love You Anika');
-const favourite = prompt('How to Anika Marry You??');
-if (favourite == 'job') {
-    console.log('Its 50-50 chance, If apu trust you then confirm you get apu. :D');
-}
-else if (favourite == 'only love') {
-    console.log('No, its so tough. when you get job then she also make good feel about you then You can get Anika');
-}
-else {
-    console.log('Hard Work Pays off. \n\ Shohan You Love Anika. \n\ Confirm She feel Your Emotion.:D');
-}*/

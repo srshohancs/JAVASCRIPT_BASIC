@@ -204,7 +204,7 @@ else {
 }
 
 
-*/
+
 // Equality Operators: == vs. ===
 
 const age = '18';
@@ -230,3 +230,31 @@ else {
 }
 
 if (favourite !== 23) console.log('Why not 23?');
+*/
+
+// Logical Operator:
+
+const hasDriverLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriverLicense && hasGoodVision); //false
+console.log(hasDriverLicense || hasGoodVision); //true
+console.log(!hasDriverLicense);
+
+const shouldDrive = hasDriverLicense && hasGoodVision;
+// if (shouldDrive) {
+//     console.log('Sarah has able to drive!');
+// }
+// else {
+//     console.log('Someone else should drive...');
+// }
+
+const isTired = false;
+console.log(hasDriverLicense || hasGoodVision || isTired);
+
+if (hasDriverLicense && hasGoodVision && !isTired) {
+    console.log('Sarah is able to drive');
+}
+else {
+    console.log('Someone else should drive...');
+}

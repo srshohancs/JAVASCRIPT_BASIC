@@ -257,7 +257,7 @@ if (hasDriverLicense && hasGoodVision && !isTired) {
 }
 else {
     console.log('Someone else should drive...');
-}*/
+}
 
 // The switch Statement
 
@@ -288,5 +288,16 @@ switch (day) {
         break;
     default:
         console.log('Work need to more hard');
-}
+}*/
 
+// Statements and Expressions
+// EXPRESSION
+2 + 4
+1992
+true && false && !false
+
+// Statement
+if (23 > 10) {
+    const str = '23 is bigger';
+}
+console.log(`I'm ${2024 - 2001} year's old`);

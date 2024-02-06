@@ -71,15 +71,20 @@ Your tasks:
 TEST DATA: Dolphins scored 96, 108, and 89. Koalas scored 88, 91, and 110.
 */
 
-const scoreDolphins = (96 + 108 + 89 / 3);
-const scoreKoalas = (88 + 91 + 110 / 3);
+const scoreDolphins = (91 + 112 + 101) / 3;
+const scoreKoalas = (109 + 95 + 106) / 3;
 
-if (scoreDolphins > scoreKoalas) {
+console.log(scoreDolphins, scoreKoalas);
+
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
     console.log('Dolphins win the trophy');
 }
-else if (scoreDolphins < scoreKoalas) {
+else if (scoreDolphins < scoreKoalas && scoreKoalas >= 100) {
     console.log('Koalas win the trophy');
 }
-else {
+else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
     console.log('Both win the trophy');
+}
+else {
+    console.log('No one wins the trophy!');
 }

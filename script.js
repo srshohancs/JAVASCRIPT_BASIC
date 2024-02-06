@@ -230,7 +230,7 @@ else {
 }
 
 if (favourite !== 23) console.log('Why not 23?');
-*/
+
 
 // Logical Operator:
 
@@ -257,4 +257,36 @@ if (hasDriverLicense && hasGoodVision && !isTired) {
 }
 else {
     console.log('Someone else should drive...');
+}*/
+
+// The switch Statement
+
+const day = 'Wednesday';
+
+switch (day) {
+    case 'Tuesday':
+        console.log('Cover up try to done udemy section 3');
+        break;
+    case 'Wednesday':
+        console.log('Go to versity');
+        console.log('I guess i faces many problem like tiredness, but i do on the night running udemy try to vedio watch section 4');
+        break;
+    case 'Thusday':
+        console.log('Cover section 4');
+        break;
+    case 'Friday':
+        console.log('Cover section 5');
+        break;
+    case 'Saturday':
+        console.log('cover section 6');
+        break;
+    case 'Sunday':
+        console.log('cover section 7');
+        break;
+    case 'Monday':
+        console.log('Cover section 8');
+        break;
+    default:
+        console.log('Work need to more hard');
 }
+

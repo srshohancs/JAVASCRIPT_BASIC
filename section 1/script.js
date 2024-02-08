@@ -300,7 +300,7 @@ true && false && !false
 if (23 > 10) {
     const str = '23 is bigger';
 }
-console.log(`I'm ${2024 - 2001} year's old`);*/
+console.log(`I'm ${2024 - 2001} year's old`);
 
 // The Conditional (Ternary) Operator
 const age = 12;
@@ -309,3 +309,6 @@ age >= 18 ? console.log('I like to drink wine 🍷') : //if part
 
 
 console.log(`I like to drink ${age >= 18 ? 'wine🍷' : 'water💧'}`); //expression added
+
+*/
+

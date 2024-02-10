@@ -80,3 +80,31 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 // console.log(yearsUntilRetirement(2001));
 console.log(yearsUntilRetirement(1999, 'Shohan'));
 console.log(yearsUntilRetirement(2002, 'Anika'));
+
+
+//  Functions Calling Other Functions
+// function cutFruitPiece(fruit) {
+//     return fruit * 4;
+// }
+
+// function fruitProcessor(apples, oranges) {
+//     const applePiece = cutFruitPiece(apples);
+//     const orangePiece = cutFruitPiece(oranges);
+
+//     const juice = `juice with ${applePiece} piece of Apples and ${orangePiece} piece of Oranges.`;
+//     return juice;
+// }
+// console.log(fruitProcessor(5, 7));
+
+function cutFruitPiece(fruit) {
+    return fruit * 4;
+}
+
+function fruitProcessor(mangos, oranges) {
+    const mangoPiece = cutFruitPiece(mangos);
+    const orangePiece = cutFruitPiece(oranges);
+
+    const juice = `juice with ${mangoPiece} piece of mangoes and ${orangePiece} piece of oranges`;
+    return juice;
+}
+console.log(fruitProcessor(1, 5));

@@ -2,7 +2,7 @@
 
 'use strict';
 
-/*
+/* 
 let hasDriversLicense = false;
 const passTest = true;
 
@@ -33,16 +33,16 @@ console.log(fruitProcessor(7, 10));
 
 const appleOrangeJuice = fruitProcessor(20, 50);
 console.log(appleOrangeJuice);
-*/
+*
 
 
-// Function Declarations
+    // Function Declarations
 
-/*
-function calcAge1(birthYear) {
-    const age = 2024 - birthYear;
-    return age;
-}
+
+    function calcAge1(birthYear) {
+        const age = 2024 - birthYear;
+        return age;
+    }
 const s = calcAge1(2001);
 console.log(s);
 
@@ -59,7 +59,7 @@ const calcAge2 = function (birthYear) {
 }
 const age2 = calcAge2(1999);
 console.log(age2);
-*/
+
 
 // Fuction Expression
 const calcAge2 = function (birthYear) {
@@ -80,7 +80,7 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 // console.log(yearsUntilRetirement(2001));
 console.log(yearsUntilRetirement(1999, 'Shohan'));
 console.log(yearsUntilRetirement(2002, 'Anika'));
-
+*/
 
 //  Functions Calling Other Functions
 // function cutFruitPiece(fruit) {
@@ -108,3 +108,26 @@ function fruitProcessor(mangos, oranges) {
     return juice;
 }
 console.log(fruitProcessor(1, 5));
+
+
+//  Functions Calling Other Functions
+const calAges = function (year) {
+    return 2024 - year;
+}
+
+const yearsUntilRetirement = function (birthYear, firstName) {
+    const age = calAges(birthYear);
+    const retirement = 59 - age;
+
+    if (retirement > 0) {
+        console.log(`${firstName} retires in ${retirement}`);
+        return retirement;
+    }
+    else {
+        console.log(`${firstName} already retired`);
+        return -1;
+    }
+}
+console.log(yearsUntilRetirement(2001, 'shohan'));
+console.log(yearsUntilRetirement(1920, 'Jonas'));
+

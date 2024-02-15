@@ -2,7 +2,7 @@
 
 'use strict';
 
-/* 
+/*
 let hasDriversLicense = false;
 const passTest = true;
 
@@ -80,7 +80,6 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 // console.log(yearsUntilRetirement(2001));
 console.log(yearsUntilRetirement(1999, 'Shohan'));
 console.log(yearsUntilRetirement(2002, 'Anika'));
-*/
 
 //  Functions Calling Other Functions
 // function cutFruitPiece(fruit) {
@@ -129,5 +128,57 @@ const yearsUntilRetirement = function (birthYear, firstName) {
     }
 }
 console.log(yearsUntilRetirement(2001, 'shohan'));
-console.log(yearsUntilRetirement(1920, 'Jonas'));
+console.log(yearsUntilRetirement(1920, 'Anika'));
+*/
 
+// Introduction to Arrays
+const name1 = 'Shohan';
+const name2 = 'Anika';
+
+const allNames = ['Shohan', 'Anika', 'Rahman'];
+console.log(allNames);
+
+const year = new Array(1999, 2000, 2023, 2024);
+console.log(year);
+
+const birthYear = [2000, 2001];
+console.log(birthYear);
+
+console.log(allNames[1]);
+console.log(year[2]);
+
+// How many elements in the array
+console.log(allNames.length);
+
+// Last element to findout like that size 3 (3-1)=2. 2is the index name
+console.log(allNames[allNames.length - 1]);
+
+// Replaced the elements
+allNames[2] = 'Anika';
+console.log(allNames);
+
+allNames[1] = 'Love';
+console.log(allNames);
+
+// Array uses multiple
+const firstName = 'Shohan';
+const shohan = [firstName, 'Rahman', 2024 - 2001, 'student', allNames];
+console.log(shohan);
+console.log(shohan.length);
+
+// Use function with array work
+const calcAge = function (birthYear) {
+    return 2024 - birthYear;
+}
+const years = [1999, 2001, 2005];
+console.log(calcAge(years));
+
+const age1 = calcAge(years[0]);
+const age2 = calcAge(years[1]);
+const age3 = calcAge(years[years.length - 1]);
+
+console.log(age1, age2, age3); //ans 25, 23, 19
+
+// Same work doing another method
+const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])];
+console.log(ages);
